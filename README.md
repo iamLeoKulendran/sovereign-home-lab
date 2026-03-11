@@ -22,7 +22,7 @@ Detailed engineering write-ups, architecture diagrams, and problem-solving metho
 
 * **[📄 Infrastructure.pdf](./Infrastructure.pdf)** — Bare-metal hardware selection, Proxmox deployment, and mitigating physical I/O bottlenecks.
 * **[📄 TrueNAS.pdf](./TrueNAS.pdf)** — ZFS storage architecture, data integrity rules, and managing hardware pass-through.
-* [**📄 Pipelines Media.pdf**](./Pipelines Media.pdf) — Automated data acquisition workflows, VPS cloud bridging, and localized machine learning.
+* [**📄 Pipelines Media.pdf**](./Pipelines-Media.pdf) — Automated data acquisition workflows, VPS cloud bridging, and localized machine learning.
 * **[📄 Observability & Monitoring.pdf](./Observability-Monitoring.pdf)** — Building the telemetry stack, reverse-engineering JSON models, and PromQL metric tracking.
 
 ## 🛠️ Key Engineering Challenges Solved
