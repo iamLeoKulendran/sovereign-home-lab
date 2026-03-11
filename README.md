@@ -20,10 +20,10 @@ This environment is built from the ground up to support containerized microservi
 
 Detailed engineering write-ups, architecture diagrams, and problem-solving methodologies are available in the repository files:
 
-* **[📄 Infrastructure.pdf](https://www.google.com/search?q=./Infrastructure.pdf)** — Bare-metal hardware selection, Proxmox deployment, and mitigating physical I/O bottlenecks.
-* **[📄 TrueNAS.pdf](https://www.google.com/search?q=./TrueNAS.pdf)** — ZFS storage architecture, data integrity rules, and managing hardware pass-through.
+* **[📄 Infrastructure.pdf](./Infrastructure.pdf)** — Bare-metal hardware selection, Proxmox deployment, and mitigating physical I/O bottlenecks.
+* **[📄 TrueNAS.pdf](./TrueNAS.pdf)** — ZFS storage architecture, data integrity rules, and managing hardware pass-through.
 * [**📄 Pipelines Media.pdf**](./Pipelines Media.pdf) — Automated data acquisition workflows, VPS cloud bridging, and localized machine learning.
-* **[📄 Observability & Monitoring.pdf](https://www.google.com/search?q=./Observability%2520%26%2520Monitoring.pdf)** — Building the telemetry stack, reverse-engineering JSON models, and PromQL metric tracking.
+* **[📄 Observability & Monitoring.pdf](./Observability%2520%26%2520Monitoring.pdf)** — Building the telemetry stack, reverse-engineering JSON models, and PromQL metric tracking.
 
 ## 🛠️ Key Engineering Challenges Solved
 
@@ -38,7 +38,3 @@ The true value of this project lies in the troubleshooting and architectural ref
 
 * **Kubernetes (K8s) Cluster:** Currently scaling the Docker environment into a highly available Kubernetes cluster to dive deeper into container orchestration, Helm charts, and cloud-native DevSecOps postures.
 * **Automated Incident Response:** Integrating n8n webhooks with Grafana alerts to trigger automated containment scripts upon detecting anomalous network traffic.
-
----
-
-*Architected and maintained by Leo.*
